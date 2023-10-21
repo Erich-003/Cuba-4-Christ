@@ -277,7 +277,7 @@ text-decoration: none;
     color: #007973;
 }
 .div-1 {
-    margin-left: 80px;
+    margin-left: 105px;
     background-color: #00a79e;
 }
 .div-2 {
@@ -286,6 +286,7 @@ text-decoration: none;
     background-color: red;
 }
 .div {
+    margin-left: 25px;
     background-color: #00a79e;
 }
 .div2 {
@@ -296,6 +297,44 @@ text-decoration: none;
     color: red;
 }
 .row {
-    padding: 0;
-    margin: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+
+/* cuarta pagina */
+.image-5 img {
+    width: 700px;
+    margin-left: 700px;
+}
+.panel-1-4 {
+    margin: 70px;
+    background-color: #02bdb3;
+}
+.panel-1-4 p{
+    color: white;
+}
+.panel-1-4 a{
+    color: rgb(15, 1, 1);
+}
+.panel-2-4 {
+    margin-left: 70px;
+}
+.panel-2-4 b {
+    color: red;
+    margin-left: 70px;
+}
+.image-6 {
+    padding: 10px;
+    border-color: white;
+    border-radius: 2px;
+}
+.image-6-2 {
+    margin-left: 70px;
+    border-color: white;
+    border-radius: 2px;
+}
+.image-6-2 img{
+    height: 200px;
 }
