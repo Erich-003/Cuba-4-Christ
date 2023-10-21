@@ -338,3 +338,7 @@ text-decoration: none;
 .image-6-2 img{
     height: 200px;
 }
+.img10 {
+    display: flex;
+    justify-content: center;
+}
