@@ -35,7 +35,7 @@
     transform: translateY(0px);
     margin-bottom: 9px;
     backdrop-filter: blur(20px);
-    background-color: rgba(63, 106, 138, 0.21);
+    background-color: #00a79fab;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,5 +96,5 @@
     font-weight: 700;
     margin-left: 10px;
     margin-right: 10px;
-    color: rgb(229, 54, 54) ;
+    color: #00a79fab ;
 }
