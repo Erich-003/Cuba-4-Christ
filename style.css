@@ -312,6 +312,11 @@ footer {
     padding-left: 0;
 }
 
+.logofooter {
+    background-color: white;
+    border-radius: 50px 0px 0px 50px;
+}
+
 
   
 @media (max-width: 1160px) {
@@ -321,6 +326,10 @@ footer {
     }
     footer .pb-0 section .row .text  {
         width: 47%;
+    }
+    footer .pb-0 section .row .marc-4 .last-text{
+        width: 102%;
+        text-align: center;
     }
     footer .pb-0 section .row .marc-4 {
         width: 85%;
@@ -345,6 +354,10 @@ footer {
     footer .pb-0 section .row .text  {
         width: 55%;
     }
+    footer .pb-0 section .row .marc-4 .last-text{
+        width: 102%;
+        text-align: center;
+    }
     footer .pb-0 section .row .marc-4 {
         width: 95%;
     }
@@ -368,6 +381,10 @@ footer {
     footer .pb-0 section .row .text  {
         width: 55%;
     }
+    footer .pb-0 section .row .marc-4 .last-text{
+        width: 102%;
+        text-align: center;
+    }
     footer .pb-0 section .row .marc-4 {
         width: 99%;
     }
@@ -384,7 +401,94 @@ footer {
 }
   
 @media (max-width: 960px) {
+    footer .pb-0 section .row .marc-4{
+        width: 95%;
+    }
+    footer .pb-0 section .row .marc-4 .last-text{
+        width: 102%;
+    }
 }
+
+@media (max-width: 900px) {
+    footer .pb-0 section .row .text  {
+        width: 65%;
+    }
+    footer .pb-0 section .row .marc-4{
+        width: 95%;
+    }
+    footer .pb-0 section .row .marc-4 .last-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .pb-0 section .row .marc-3{
+        width: 70%;
+    }
+    footer .pb-0 section .row .marc-2 {
+        width: 55%;
+    }
+}
+
+@media (max-width: 880px) {
+    footer .pb-0 .icon-con .row .logofooter img {
+        width: 140px;
+    }
+    footer .pb-0 section .row .marc-4 .last-text {
+        width: 100%;
+        
+        text-align: center;
+    }
+    footer .pb-0 section .row .marc-4{
+        width: 95%;
+    }
+}
+
+@media (max-width: 800px) {
+    footer .pb-0 .icon-con .row .logofooter img {
+        width: 120px;
+    }
+    footer .pb-0 section .row .marc-4 .last-text {
+        width: 100%;
+        
+        text-align: center;
+    }
+    footer .pb-0 section .row .marc-4{
+        width: 95%;
+    }
+} 
+@media (max-width: 767px) {
+    footer {
+        padding-left: 10px;
+    }
+    footer .pb-0 section .row .text h6 {
+        width: 100%;
+        text-align: center;
+    }
+    footer .pb-0 section .row .text  {
+        width: 100%;
+        text-align: center;
+    }
+    footer .pb-0 section .row .marc-4 {
+        width: 100%;
+    }
+
+    footer .pb-0 section .row .marc-3{
+        width: 100%;
+    }
+    footer .pb-0 section .row .marc-2 {
+        width: 100%;
+    }
+    footer .pb-0 .icon-con .row .logofooter img {
+        width: 150px;
+        
+    }
+    .logofooter {
+        margin-left: 10px;
+        background-color: white;
+        border-radius: 50px 50px 50px 50px;
+    }
+}
+
 
 
 
