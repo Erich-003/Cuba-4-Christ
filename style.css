@@ -85,14 +85,6 @@ background-image: linear-gradient(0deg, #00a79e 0%, #f3ffff 73%);
     height: 30px;
 }
 
-.btn-donate:hover {
-    background-position: right top;
-  }
-  
-  .btn-donate:is(:focus, :focus-visible, :active) {
-    outline: none;
-    box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
-  }
 
   /* donate buton */
 .btn-donate {
@@ -115,6 +107,16 @@ background-image: linear-gradient(0deg, #00a79e 0%, #f3ffff 73%);
     border-radius: var(--radii);
     color: var(--btn-bg-color);
 }
+
+.btn-donate:hover {
+    background-position: right top;
+  }
+  
+  .btn-donate:is(:focus, :focus-visible, :active) {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .btn-donate {
       transition: linear;
