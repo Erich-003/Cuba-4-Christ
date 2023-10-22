@@ -480,6 +480,13 @@ text-decoration: none;
 
 
 /* cuarta pagina */
+.background{
+    background-image: url(./Img/bandera.jpg);
+    background-size: cover;
+    overflow: hidden;
+    margin: 0%;
+}
+
 .image-5 img {
     width: 700px;
     margin-left: 700px;
