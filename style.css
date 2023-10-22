@@ -8,6 +8,7 @@ background-image: linear-gradient(0deg, #00a79e 0%, #f3ffff 73%);
 .header {
     margin: 0px 50px 0px 50px;
 }
+
 /* Navbar */
 
 .navbar {
@@ -36,6 +37,12 @@ background-image: linear-gradient(0deg, #00a79e 0%, #f3ffff 73%);
     height: 60%;
 }
 
+@media (max-width: 1024px) {
+    .navbar {
+        margin: 0px 0 0px 0;
+    }
+}
+
 
 /* panel 1 */
 
@@ -47,11 +54,37 @@ background-image: linear-gradient(0deg, #00a79e 0%, #f3ffff 73%);
     background-color: #00a79e;
     color: white;
 }
-
-
 .panel-1 a {
     color: white
 }
+
+
+@media (max-width: 1024px) {
+    .header .container-fluid .row h1 {
+        font-size: xx-large;
+        padding-top: 10px;
+    }
+    .header .container-fluid .row{
+        margin-top: 40px;
+    }
+    .panel-1 h2{
+        font-size: x-large;
+    }
+}
+@media (max-width: 990px) {
+    .header .container-fluid .row h1 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .header .container-fluid .row{
+        margin-top: 40px;
+    }
+    .panel-1 h2{
+        font-size: x-large;
+    }   
+}
+
+
 
 /* card donation */
 .donation-card {
@@ -83,6 +116,28 @@ background-image: linear-gradient(0deg, #00a79e 0%, #f3ffff 73%);
 }
 .input-2{
     height: 30px;
+}
+
+@media (max-width: 1024px) {
+    .donation-card{
+        height: 230px;
+        border-left: 0px;
+    }
+    .header  .container-fluid .donation-panel{
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 990px) {
+    .donation-card{
+        height: 200px;
+        padding-top: 20px;
+    }
+    .header  .container-fluid .donation-panel{
+        margin-right: 0px;
+        padding-top: opx;
+    }
 }
 
 
@@ -144,12 +199,70 @@ background-image: linear-gradient(0deg, #00a79e 0%, #f3ffff 73%);
     color: white;
 }
 
-footer {
-    padding-left: 70px;
+@media (max-width: 1190px) {
+    .header .row .img-panel img {
+        width: 480px;
+        height: 300px;
+        padding-left: 0px;
+      }   
+    .header .container .h1 {
+        font-size: xx-large;
+    } 
+    .header .row .col-6 .h1{
+        padding: 70px 0px 0px 40px;
+        
+      }
+    .header div .h1 {
+        font-size: xx-large;
+    }
+        
+}
+
+@media (max-width: 1024px) {
+    .header .row .img-panel img {
+        width: 418px;
+        height: 300px;
+        padding-left: 0px;
+      }   
+    .header .container .h1 {
+        font-size: xx-large;
+    } 
+    .header .row .col-6 .h1{
+        padding: 70px 0px 0px 40px;
+        
+      }
+    .header div .h1 {
+        font-size: xx-large;
+    }
+    
+}
+
+@media (max-width: 990px) {
+    .header .row .img-panel img {
+        width: 390px;
+        height: 200px;
+        padding-left: 0px;
+      }   
+    .header .container .h1 {
+        font-size: x-large;
+    } 
+    .header .row .col-6 .h1{
+        padding: 40px 0px 0px 40px;
+        
+      }
+    .header div .h1 {
+        font-size: xx-large;
+    }
+    
 }
 
 
 /* footer */
+
+footer {
+    padding-left: 70px;
+}
+
 .icon {
     display: inline-flex;
     width: 30px;
@@ -199,7 +312,81 @@ footer {
     padding-left: 0;
 }
 
+
   
+@media (max-width: 1160px) {
+    footer .pb-0 section .row .text h6 {
+        width: 180%;
+        text-align: left;
+    }
+    footer .pb-0 section .row .text  {
+        width: 47%;
+    }
+    footer .pb-0 section .row .marc-4 {
+        width: 85%;
+    }
+
+    footer .pb-0 section .row .marc-3{
+        width: 50%;
+    }
+    footer .pb-0 section .row .marc-2 {
+        width: 40%;
+    }
+    footer .pb-0 .icon-con .row .logofooter img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 1100px) {
+    footer .pb-0 section .row .text h6 {
+        width: 180%;
+        text-align: left;
+    }
+    footer .pb-0 section .row .text  {
+        width: 55%;
+    }
+    footer .pb-0 section .row .marc-4 {
+        width: 95%;
+    }
+
+    footer .pb-0 section .row .marc-3{
+        width: 58%;
+    }
+    footer .pb-0 section .row .marc-2 {
+        width: 46%;
+    }
+    footer .pb-0 .icon-con .row .logofooter img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 1024px) {
+    footer .pb-0 section .row .text h6 {
+        width: 180%;
+        text-align: left;
+    }
+    footer .pb-0 section .row .text  {
+        width: 55%;
+    }
+    footer .pb-0 section .row .marc-4 {
+        width: 99%;
+    }
+
+    footer .pb-0 section .row .marc-3{
+        width: 58%;
+    }
+    footer .pb-0 section .row .marc-2 {
+        width: 46%;
+    }
+    footer .pb-0 .icon-con .row .logofooter img {
+        width: 150px;
+    }
+}
+  
+@media (max-width: 960px) {
+}
+
+
 
 
 
