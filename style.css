@@ -525,3 +525,34 @@ text-decoration: none;
     display: flex;
     justify-content: center;
 }
+
+
+
+
+/* pagina 5 */
+
+.image-7-2 {
+    margin-left: 70px;
+    border-color: #02bdb3;
+    border-radius: 2px;
+}
+.image-7 {
+    margin-left: 4%;
+    background-color: #02bdb3;
+    padding: 10px;
+    border-color: #02bdb3;
+    border-radius: 2px;
+}   
+.image-7-2 img{
+    height: 200px;
+    width: 200px;
+}
+.info {
+    width: 70%;
+    color: #078680;
+    text-align: center;
+}
+.inf {
+    
+    text-align: center;
+}
