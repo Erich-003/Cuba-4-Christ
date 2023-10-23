@@ -702,3 +702,93 @@ text-decoration: none;
     display: flex;
     justify-content: center;
 }
+
+
+
+
+/* pagina 5 */
+
+.image-7-2 {
+    margin-left: 70px;
+    border-color: #02bdb3;
+    border-radius: 2px;
+}
+.image-7 {
+    margin-left: 4%;
+    background-color: #02bdb3;
+    padding: 10px;
+    border-color: #02bdb3;
+    border-radius: 2px;
+}   
+.image-7-2 img{
+    height: 200px;
+    width: 200px;
+}
+.info {
+    width: 70%;
+    color: #078680;
+    text-align: center;
+}
+
+
+/* page-8 */
+
+.panel-1-8 {
+    text-align: center;
+    margin-left: 5%;
+    background-color: red;
+    width: 27%;
+}
+.panel-1-8 h1 {
+    color: white;
+}
+.panel-2-8 {
+    text-align: center;
+    margin-left: 5%;
+    background-color: #02bdb3;
+    width: 77%;
+}
+.panel-2-8 h1 {
+    color: white;
+}
+.btn-1 {
+    margin-left: 5%;
+}
+.btn-1 button {
+    box-shadow: 10px 10px 0 0 rgb(67, 66, 66) inset;
+    padding: 10px 10px 5px 20px;
+    background-color: red;
+    font-size: 40px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}   
+.panel-3-8 {
+    text-align: center;
+    width: 35%;
+    margin-left: 30%;
+    background-color: #02bdb3;
+    color: white;
+}
+.panel-4-8 {
+    text-align: center;
+    width: 35%;
+    margin-left: 30%;
+    background-color: red;
+    color: white;
+}
+.panel-4-8 b {
+    font-size: 20px;
+}
+.btn-2 {
+    margin-left: 40%;
+}
+.btn-2 button {
+    box-shadow: 10px 10px 0 0 rgb(67, 66, 66) inset;
+    padding: 10px 10px 5px 20px;
+    background-color: #02bdb3;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}  
