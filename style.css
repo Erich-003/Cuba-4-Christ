@@ -400,8 +400,7 @@ footer {
 /* panel-3 */
 .panel-3  {
     background-color: #00a79e ;
-width: 41%;
-
+    width: 41%;
     color: white
 }
 
@@ -524,4 +523,100 @@ text-decoration: none;
 .img10 {
     display: flex;
     justify-content: center;
+}
+
+
+/* page 6 */
+
+.food img{
+    height: 650px;
+    width: 1513px;
+
+}
+
+.textf p{
+    background-color: #00a79e;
+    font-family: sans-serif;
+    color: white;
+}
+.textf a{
+    color: black;
+    text-decoration: underline;}
+
+    /* know more */
+
+    .textf .know a {
+        background-color: rgb(229, 54, 54);
+        margin-right: 20px;
+        padding: 0px 20px 0px 20px;
+        border-radius: 25px;
+        text-decoration: none !important;
+        color: white;
+        
+    }
+
+    /* imagen derecha */
+
+    .row .col-6 img{
+        height: 80%;
+        width: 91%;
+    }
+  
+
+
+  /* page 7 */
+.travel b{
+    color: white;
+    background-color: #00a79e;
+    background-size: cover;
+    margin: auto;
+}
+
+/* plane img */
+.row .col-6 img{
+    height: 220px;
+    width: 650px;
+    
+}
+
+/* contact us btn */
+.row .contactus a{
+    background-color: rgb(229, 54, 54);
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px 5px 0 0 #2c3333 inset;
+    margin-right: 40%;
+    text-decoration: none;
+}
+/* cards */
+.container .row .col-4 .card1 img {
+    height: 50%;
+    width: 120%;
+    border-color: #2c3333;
+}
+ 
+.container .row .col-4 .card1 .text {
+    color: #00a79e;
+    background-color: none;
+}
+
+.container .row .col-4 .card2 img {
+    height: 100% ;
+    width: 106%;
+}
+
+.container .row .col-4 .card3 img {
+    height: 70%;
+    width: 59%;
+}
+
+/* contact travel btn */
+.contact a{
+    background-color: rgb(229, 54, 54);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px 5px 0 0 #2c3333 inset;
+    text-decoration: none;
 }
